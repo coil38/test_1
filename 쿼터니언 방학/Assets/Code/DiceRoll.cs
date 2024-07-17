@@ -11,8 +11,8 @@ public class DiceRoll : MonoBehaviour
         Six,
         Twenty
     }
-    
-    public List<Side> Dice
+
+    public List<Side> Dice;
 
     public TMP_InputField side_Input;           // 몇면체인지 입력하는 InputField
     public TMP_InputField amount_Input;         // 몇개 추가할건지 입력하는 InputField
